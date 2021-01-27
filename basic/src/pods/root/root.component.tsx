@@ -15,6 +15,11 @@ export const RootComponent: React.FunctionComponent<Props> = (props) => {
       <Typography className={classes.title} variant="h2">
         MAIN PAGE
       </Typography>
+      <Typography className={classes.memberList} variant="h3">
+        - Item 1
+        - Item 2
+        - etc
+      </Typography>
     </div>
   );
 };
