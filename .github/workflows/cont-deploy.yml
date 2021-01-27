@@ -23,7 +23,9 @@ jobs:
       - name: Current folder
         run: pwd
       - name: Go to /basic/ folder
-        run: cd basic
+        run: cd ./basic
+      - name: Current folder
+        run: pwd
       - name: Install node_modules
         run: npm install
       - name: Build
