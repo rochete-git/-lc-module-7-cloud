@@ -22,10 +22,10 @@ jobs:
           git config --global user.name "rochete"
       - name: Current folder
         run: pwd
+      - name: Content
+        run: ll
       - name: Go to /basic/ folder
         run: cd ./basic
-      - name: Current folder
-        run: pwd
       - name: Install node_modules
         run: npm install
       - name: Build
