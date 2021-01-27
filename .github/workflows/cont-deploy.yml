@@ -23,7 +23,7 @@ jobs:
       - name: Current folder
         run: pwd
       - name: Content
-        run: ll
+        run: ls
       - name: Go to /basic/ folder
         run: cd ./basic
       - name: Install node_modules
