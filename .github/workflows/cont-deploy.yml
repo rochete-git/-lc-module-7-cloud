@@ -20,12 +20,6 @@ jobs:
         run: |
           git config --global user.email "rochete@gmail.com"
           git config --global user.name "rochete"
-      - name: Current folder
-        run: pwd
-      - name: Content
-        run: ls
-      - name: Go to /basic/ folder
-        run: cd ./basic
       - name: Install node_modules
         run: npm install
       - name: Build
